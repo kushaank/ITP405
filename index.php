@@ -14,8 +14,7 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+    
 
    
 
@@ -50,16 +49,18 @@
       <br>
       <br>
       <div class="starter-template">
-        <h1>Search for a movie:</h1>
+      
           
       </div>
       <div class="row">
-        <div class="span12">
-            <form id="custom-search-form" method ="get" action= "search.php" class="form-search form-horizontal pull-right">
-                <div class="input-append span12">
+        <div>
+            <h3>Search for a movie:</h3>
+            <form role="form" method ="get" action= "search.php">
+                <div class="form-group">
+                    <label for="movie">Keyword:</label>
                     <input type="text"  name= "movie" class="search-query" placeholder="Search">
-                    <button type="submit" class="btn"><i class="icon-search"></i></button>
                 </div>
+                <button type="submit" class="btn"><i class="icon-search">Search</i></button>
             </form>
         </div>
   </div>
